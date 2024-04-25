@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #fafafa;
+    
+
+  }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding-top: 15px;
+  background-color: #fff;
+  color: black;
+  font-weight: 800;
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.admin{
+  font-weight: 100;
+  color: gray;
+  margin-top: 10px;
+}
+
+.item{
+  font-size: 11.5px;
+  font-weight: 100;
+}
+
+ .menu-bar ul{
+  height: 59vh;
+  margin-top: 5rem;
+  margin-left: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 45px;
+  font-size: 0.9rem;
+  position: relative;
+  margin-bottom: 80px;
+  font-weight: 600;
+  background-color: #ffffff;
+  width: fit-content;
+  font-family: 'Poppins';
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+} 
+.menu-bar li {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-bar li span {
+  margin-left: 10px;
+}
+.sidebar {
+  background-color: #ffffff;
+  min-width: 250px;
+  height: 100vh; 
+  position: fixed;
+  left: 0;
+}
+
+#footer {
+  color: gray;
+  background-color: #ffffff;
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 20px;
+
+}
+
+ .layout {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  position: relative;
+} 
